@@ -1,4 +1,6 @@
-# Overview
+# VeTion Predict Backend API
+
+## Overview
 This project deploys a machine learning model using Flask, Docker, and Google Cloud Run. The model classifies images of vegetables into various quality categories. Additional data about the recognized vegetable is fetched from a Node.js API endpoint.
 
 ## Based URL
@@ -86,7 +88,7 @@ curl -X POST https://model-vetion-v2-m7d2r5xhua-et.a.run.app/predict -F "image.j
   }
   ```
 
-  ## Model Details
+## Model Details
 The API uses a TensorFlow Keras model (`.h5`) stored in the `model` directory.
 
 ## Vegetable Information

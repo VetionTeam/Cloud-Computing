@@ -88,7 +88,7 @@ curl -X POST https://model-vetion-v2-m7d2r5xhua-et.a.run.app/predict -F "image.j
   }
   ```
 
-  ## Model Details
+## Model Details
 The API uses a TensorFlow Keras model (`.h5`) stored in the `model` directory.
 
 ## Vegetable Information
